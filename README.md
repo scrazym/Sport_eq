@@ -1,4 +1,4 @@
-# ![book](icons8-bookmark-30.png) Landing page for sport shop.
+# ![book](./src/image/icons/icons8-bookmark-30.png) Landing page for sport shop.
 
 <br>
 
