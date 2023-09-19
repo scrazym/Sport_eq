@@ -1,0 +1,49 @@
+.revievs {
+  min-height: 968px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  &__client {
+    display: flex;
+    padding-top: 60px;
+    img {
+      width: 169px;
+      height: 169px;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__descr {
+    padding-left: 60px;
+    max-width: 740px;
+    min-height: 219px;
+    span {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #646464;
+    }
+  }
+  &__text {
+    min-height: 169px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0d0d0d;
+    text-align: left;
+  }
+}
+
+@media (max-width: 578px) {
+  .revievs {
+    &__client {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    &__descr {
+      padding: 5px 15px;
+    }
+  }
+}
